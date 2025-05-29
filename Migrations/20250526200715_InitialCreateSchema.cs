@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LibraryWeb.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialSchemaWithAllEntities : Migration
+    public partial class InitialCreateSchema : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
